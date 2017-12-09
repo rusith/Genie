@@ -12,14 +12,11 @@ namespace GenieCLI
             if (args.Length > 0)
             {
                 if (args.Contains("-ni"))
-                {
                     output.NoInfo = true;
-                }
-
+                
                 if (args.Contains("-s"))
-                {
                     output.Silent = true;
-                }
+                
 
                 if (args.Contains("-f"))
                 {
